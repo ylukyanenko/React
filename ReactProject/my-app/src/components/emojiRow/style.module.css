@@ -1,0 +1,9 @@
+.emojiRow {
+    width: 500px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin: 5px auto;
+    background-color: gainsboro;
+}
