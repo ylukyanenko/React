@@ -1,15 +1,15 @@
 import style from "./style.module.css";
+
 interface IProps {
     title: string;
     symbol: string;
     keywords: string;
 }
 
-export const EmojiRow = (props: IProps) => {
+export const EmojiRow = ({title, symbol}: IProps) => {
     return (
-        <div className={style.emojiRow}>
-            <div>{props.symbol}</div>
-            <p> {props.title}</p>
-        </div>
+        <li className={style.emojiRow}>
+            {symbol} {title}
+        </li>
     );
 };

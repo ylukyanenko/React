@@ -1,17 +1,8 @@
 import style from "./style.module.css";
 import image from "./5_189.jpg";
+import { IPost } from "../../types/post";
 
-interface IProps {
-    id: number;
-    image?: string;
-    text: string;
-    date: string;
-    lesson_num: number;
-    title: string;
-    author: number;
-}
-
-export const PostItem = (props:IProps) => {
+export const PostItem = (props:IPost) => {
     return (
         <div className={style.post}>
             {props.image ? (
