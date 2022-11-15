@@ -1,8 +1,8 @@
 export const emojies = [
   {
-    "title": "100",
-    "symbol": "💯",
-    "keywords":
+    title: "100",
+    symbol: "💯",
+    keywords:
       "hundred points symbol symbol wow wow win win perfect perfect parties parties"
   },
   {
