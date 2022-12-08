@@ -8,7 +8,7 @@ interface IProps{
 
 export const PostList = (props:IProps) => {
     return ( 
-        <div className={style.contauner}>
+        <div className={style.container}>
         {props.posts.map((item) => (
             <PostItem
             key={item.id}
