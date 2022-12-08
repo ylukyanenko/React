@@ -1,9 +1,16 @@
 import './App.css';
+import { AllPosts } from './components/AllPosts';
 import { Button } from './components/Button';
 import { Clicker } from './components/Clicker';
+import { Converter } from './components/Converter';
 import { EmojiList } from './components/emojiList';
+import { Header } from './components/Header';
 import { Input } from './components/Input';
+import { Login } from './components/Login';
 import { PostList } from './components/PostList';
+import { RegistrationForm } from './components/RgistrationForm';
+import { Time } from './components/Time';
+import { Timer } from './components/Timer';
 import { Title } from './components/Title';
 import { TodoList } from './components/TodoList/List';
 import { UserName } from './components/User';
@@ -84,12 +91,21 @@ function App() {
       <Button text="Sign up" onClick={onClickSignUp} type="secondary"/>
       <Button text="Logout" onClick={onClickLogout} type="secondary2" />
       {/* <Input value ="Logo"/> */}
-      <Title text="good day"/> 
+      {/* <Title text="good day"/> 
       <UserName userName="John" isDark={false}/>
       <Clicker />
       <TodoList />
-      <PostList posts={posts}/>
-      <EmojiList /> 
+      <PostList posts={posts}/> */}
+      {/* <EmojiList /> */}
+      {/* <AllPosts />  */}
+      {/* <Login /> */}
+      <Header />
+      <Converter />
+      <RegistrationForm />
+      <Time />
+      <Timer />
+
+
     </div>
   );
 } 

@@ -1,8 +1,9 @@
-.contaainer{
+.container{
     width: 1200px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-self: center;
     padding: 15px;
     gap: 40px;
+    background-color: black;
 }
